@@ -96,10 +96,6 @@ Find `replicas: 3` in the rendered Deployment. This demonstrates that Helm uses 
 
 A Helm chart contains templates and values. Helm renders the templates on the client side, and Kubernetes receives the finished YAML—not the template expressions.
 
-## Suggested labs
-
-Follow [`labs/README.md`](labs/README.md) for step-by-step exercises.
-
 ## Official documentation
 
 - [Helm template command](https://helm.sh/docs/helm/helm_template/)
